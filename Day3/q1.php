@@ -46,7 +46,7 @@ $connect=mysqli_connect("localhost","root","") or die(mysql_error());
 
 mysqli_select_db($connect,"result") or die("ERROR");
 
-$write=mysqli_query($connect,"Insert into class1 values('','$yourname','$mk1','$mk2','$mk3','$mk4','$mk5','$total','$per')") or die(mysqli_error($connect));
+$write=mysqli_query($connect,"Insert into class1 values('','$yourname','$mk1','$mk2','$mk3','$mk4','$mk5','$total','500','$per')") or die(mysqli_error($connect));
 
 
 
